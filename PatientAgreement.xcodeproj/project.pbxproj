@@ -12,6 +12,7 @@
 		2224C712206DF37300FA9C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224C710206DF37300FA9C7F /* Main.storyboard */; };
 		2224C714206DF37300FA9C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2224C713206DF37300FA9C7F /* Assets.xcassets */; };
 		2224C717206DF37300FA9C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2224C715206DF37300FA9C7F /* LaunchScreen.storyboard */; };
+		22786258206DF5A70043B336 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22786257206DF5A70043B336 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2224C713206DF37300FA9C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2224C716206DF37300FA9C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2224C718206DF37300FA9C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22786257206DF5A70043B336 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		2224C70B206DF37300FA9C7F /* PatientAgreement */ = {
 			isa = PBXGroup;
 			children = (
-				2224C70C206DF37300FA9C7F /* AppDelegate.swift */,
 				2224C70E206DF37300FA9C7F /* ViewController.swift */,
 				2224C710206DF37300FA9C7F /* Main.storyboard */,
-				2224C713206DF37300FA9C7F /* Assets.xcassets */,
-				2224C715206DF37300FA9C7F /* LaunchScreen.storyboard */,
+				2224C71E206DF43300FA9C7F /* SupportFiles */,
 				2224C718206DF37300FA9C7F /* Info.plist */,
 			);
 			path = PatientAgreement;
+			sourceTree = "<group>";
+		};
+		2224C71E206DF43300FA9C7F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2224C70C206DF37300FA9C7F /* AppDelegate.swift */,
+				2224C713206DF37300FA9C7F /* Assets.xcassets */,
+				2224C715206DF37300FA9C7F /* LaunchScreen.storyboard */,
+				22786257206DF5A70043B336 /* Default-568h@2x.png */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2224C717206DF37300FA9C7F /* LaunchScreen.storyboard in Resources */,
+				22786258206DF5A70043B336 /* Default-568h@2x.png in Resources */,
 				2224C714206DF37300FA9C7F /* Assets.xcassets in Resources */,
 				2224C712206DF37300FA9C7F /* Main.storyboard in Resources */,
 			);
@@ -277,7 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PatientAgreement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = acaziasoft.com.PatientAgreement;
+				PRODUCT_BUNDLE_IDENTIFIER = acaziasoft.com.patientagreement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PatientAgreement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = acaziasoft.com.PatientAgreement;
+				PRODUCT_BUNDLE_IDENTIFIER = acaziasoft.com.patientagreement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
