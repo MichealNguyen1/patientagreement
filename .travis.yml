@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: PatientAgreement.xcodeproj
 xcode_scheme: PatientAgreement
-xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=11.2,name=iPhone X
